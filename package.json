@@ -10,7 +10,7 @@
 			"cookie": ">=0.7.0"
 		}
 	},
-	"version": "0.0.1",
+	"version": "0.1.1",
 	"type": "module",
 	"packageManager": "pnpm@10.31.0+sha512.e3927388bfaa8078ceb79b748ffc1e8274e84d75163e67bc22e06c0d3aed43dd153151cbf11d7f8301ff4acb98c68bdc5cadf6989532801ffafe3b3e4a63c268",
 	"scripts": {
@@ -48,7 +48,9 @@
 		"git": "pnpm exec tsx scripts/git-workflow.ts",
 		"version:minor": "npm version minor --no-git-tag-version --loglevel=error",
 		"lefthook:commit": "lefthook run pre-commit",
-		"lefthook:push": "lefthook run pre-push"
+		"lefthook:push": "lefthook run pre-push",
+		"main:sync": "git checkout main && git pull",
+		"main:merge": "git pull origin main"
 	},
 	"devDependencies": {
 		"@better-auth/cli": "~1.4.21",
