@@ -36,7 +36,7 @@ reviews:
     auto_pause_after_reviewed_commits: 3
   tools:
     github-checks:
-      timeout_ms: 5000
+      enabled: false
     phpstan:
       enabled: false
     phpmd:
