@@ -22,6 +22,7 @@ ignorePaths:
   - src/lib/paraglide/**
   - project.inlang/**
   - src/lib/constants/video-ids.ts
+  - .dev.vars**
 words:
   - aikidosec
   - coderabbit
