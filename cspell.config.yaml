@@ -30,6 +30,7 @@ words:
   - Daihatsu
   - EDITMSG
   - esbuild
+  - eslintcache
   - ianvs
   - inlang
   - joshuafolkken
@@ -46,5 +47,6 @@ words:
   - Stylesheet
   - trycloudflare
   - unrs
+  - vite
   - workerd
   - youtubei
