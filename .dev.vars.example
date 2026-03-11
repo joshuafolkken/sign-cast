@@ -1,0 +1,5 @@
+# Cloudflare Workers ローカル開発用の環境変数
+# このファイルを .dev.vars にコピーし、実際の値を設定してください
+# cp .dev.vars.example .dev.vars
+
+YOUTUBE_API_KEY="your_youtube_api_key_here"
